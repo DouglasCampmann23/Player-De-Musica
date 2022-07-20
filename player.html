@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player De Musica.</title>
+    <link rel="shortcut icon" href="./assets/images/iconPage.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <main class="container">
+        <div class="top-container">
+            <span>Music Player</span>
+        </div>
+
+        <div class="img-area">
+            <img id="musicImg" src="./assets/images/musicImages/snowIMG.jpg">
+        </div>
+        <div class="song-details">
+            <p id="name">
+                That Was Just Your Life
+            </p>
+            <p id="artist">
+                Metallica
+            </p>
+        </div>
+
+        <div class="progress-area">
+            <div id="timeline">
+                <progress id="progressBar" value="0" max="1"></progress>
+            </div>
+
+            <div class="timer">
+                <span id="start">0:00</span><span id="end">0:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <img id="previous" src="./assets/image/btn.buttom/previous.PNG">
+            <img id="play" src="./assets/image/btn.buttom/play2.PNG">
+            <img id="pause" src="./assets/image/btn.buttom/pause2.PNG">
+            <img id="next" src="./assets/image/btn.buttom/next.PNG">
+        </div>
+    </main>
+    <audio id="music" src="./assets/musica/That Was Just Your Life.mp3"></audio>
+    
+</body>
+</html>
